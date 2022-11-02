@@ -1,0 +1,23 @@
+import React from 'react'
+
+
+export const Header = () =>{
+    return(
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <h1>DEV</h1>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href='' target='_blanck'>LinkedIn</a></li>
+                            <li><a href='' target='_blanck'>GitHub</a></li>
+                            <li><a href='' target='_blanck'>Whatsapp</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
