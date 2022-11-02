@@ -1,11 +1,9 @@
 import React from 'react'
 import '../css/header.css'
-import { Section1 } from '../section1/section1'
 
 
 export const Header = () =>{
     return(
-        <div>
         <header>
             <div className='container-header'>
                 <div className='subcontainer-header'>
@@ -22,11 +20,5 @@ export const Header = () =>{
                 </div>
             </div>
         </header>
-        <section>
-            <div>
-                <Section1/>
-            </div>
-        </section>
-        </div>
     )
 }

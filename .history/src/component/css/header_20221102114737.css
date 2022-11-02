@@ -49,8 +49,8 @@ header{
     height: 40vh;
 }
 
-.presentacion-text p{
-    font-size: 18px;
+.presentacion-text{
+    height: 100%;
 }
 
 @media only screen and (max-width: 700px) {

@@ -1,6 +1,5 @@
 import React from 'react'
 import '../css/header.css'
-import { Section1 } from '../section1/section1'
 
 
 export const Header = () =>{
@@ -23,9 +22,7 @@ export const Header = () =>{
             </div>
         </header>
         <section>
-            <div>
-                <Section1/>
-            </div>
+            <div></div>
         </section>
         </div>
     )

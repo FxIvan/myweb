@@ -1,7 +1,3 @@
-*{
-    font-family: 'Courier Prime', monospace;
-}
-
 header{
     background-color: blueviolet;
 }
@@ -38,19 +34,19 @@ header{
 }
 
 .container-presentacion{
-    width: 70%;
+    width: 95%;
     margin: auto;
+    height: 20vh;
     margin-top: 2rem;
     display: flex;
-    align-items: center;
 }
 
 .pesentacion-img img{
     height: 40vh;
 }
 
-.presentacion-text p{
-    font-size: 18px;
+.presentacion-text{
+    height: 100%;
 }
 
 @media only screen and (max-width: 700px) {

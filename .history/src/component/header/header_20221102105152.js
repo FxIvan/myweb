@@ -1,18 +1,15 @@
 import React from 'react'
-import '../css/header.css'
-import { Section1 } from '../section1/section1'
 
 
 export const Header = () =>{
     return(
-        <div>
         <header>
             <div className='container-header'>
                 <div className='subcontainer-header'>
-                    <div className='container-header-logo'>
+                    <div>
                         <h1>DEV</h1>
                     </div>
-                    <div className='container-header-link'>
+                    <div>
                         <ul>
                             <li><a href='https://www.linkedin.com/in/devalmendra/' target='_blanck'>LinkedIn</a></li>
                             <li><a href='https://github.com/FxIvan' target='_blanck'>GitHub</a></li>
@@ -22,11 +19,5 @@ export const Header = () =>{
                 </div>
             </div>
         </header>
-        <section>
-            <div>
-                <Section1/>
-            </div>
-        </section>
-        </div>
     )
 }
