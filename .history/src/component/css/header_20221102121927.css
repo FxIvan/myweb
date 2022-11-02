@@ -92,12 +92,10 @@ header{
     .container-presentacion{
         width: 100%;
         text-align: center;
-        margin-top: 1rem;
     }
     
     .pesentacion-img{
         width: 30%;
-        margin: auto;
     }
     .pesentacion-img img{
         width: 100%;

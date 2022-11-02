@@ -42,13 +42,12 @@ header{
     width: 70%;
     margin: auto;
     margin-top: 2rem;
-    align-items: center;
     display: flex;
+    align-items: center;
 }
 
 .pesentacion-img img{
     height: 40vh;
-    width: 100%;
 }
 
 .presentacion-text p{
@@ -91,13 +90,10 @@ header{
     
     .container-presentacion{
         width: 100%;
-        text-align: center;
-        margin-top: 1rem;
     }
     
     .pesentacion-img{
         width: 30%;
-        margin: auto;
     }
     .pesentacion-img img{
         width: 100%;

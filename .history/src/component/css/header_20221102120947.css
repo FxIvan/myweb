@@ -42,13 +42,12 @@ header{
     width: 70%;
     margin: auto;
     margin-top: 2rem;
-    align-items: center;
     display: flex;
+    align-items: center;
 }
 
 .pesentacion-img img{
     height: 40vh;
-    width: 100%;
 }
 
 .presentacion-text p{
@@ -75,39 +74,28 @@ header{
     }
     
     .container-header-logo{
-       width: 50%;
+       width: 20%;
     }
     .container-header-link{
-       width: 40%;
+       width: 80%;
     }
     .container-header-link ul, a{
-        list-style: none;
-        text-decoration: none;
-    }
-    
-    .container-header-link ul li{
 
     }
     
+    .container-header-link ul li{
+       list-style: none;
+    }
+    
     .container-presentacion{
-        width: 100%;
-        text-align: center;
-        margin-top: 1rem;
+
     }
     
-    .pesentacion-img{
-        width: 30%;
-        margin: auto;
-    }
     .pesentacion-img img{
-        width: 100%;
+    
     }
     
-    .presentacion-text{
-        width: 100%;
-    }
     .presentacion-text p{
-      font-size: 8px;
-      width: 100%;
+      
     }
 }

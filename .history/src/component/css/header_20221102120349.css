@@ -42,13 +42,12 @@ header{
     width: 70%;
     margin: auto;
     margin-top: 2rem;
-    align-items: center;
     display: flex;
+    align-items: center;
 }
 
 .pesentacion-img img{
     height: 40vh;
-    width: 100%;
 }
 
 .presentacion-text p{
@@ -71,43 +70,32 @@ header{
     }
     
     .subcontainer-header{
-        display: flex;
-    }
-    
-    .container-header-logo{
-       width: 50%;
-    }
-    .container-header-link{
-       width: 40%;
-    }
-    .container-header-link ul, a{
-        list-style: none;
-        text-decoration: none;
-    }
-    
-    .container-header-link ul li{
 
     }
     
+    .container-header-logo{
+       
+    }
+    .container-header-link{
+       
+    }
+    .container-header-link ul, a{
+
+    }
+    
+    .container-header-link ul li{
+       
+    }
+    
     .container-presentacion{
-        width: 100%;
-        text-align: center;
-        margin-top: 1rem;
+
     }
     
-    .pesentacion-img{
-        width: 30%;
-        margin: auto;
-    }
     .pesentacion-img img{
-        width: 100%;
+    
     }
     
-    .presentacion-text{
-        width: 100%;
-    }
     .presentacion-text p{
-      font-size: 8px;
-      width: 100%;
+      
     }
 }
