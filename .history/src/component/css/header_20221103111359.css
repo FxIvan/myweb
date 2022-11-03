@@ -1,6 +1,7 @@
 @media only screen and (min-width: 701px) {
 *{
     font-family: 'Courier Prime', monospace;
+    background-color: aqua;
 }
 
 header{
@@ -46,12 +47,12 @@ header{
     display: flex;
 }
 
-.container-presentacion .presentacion-img{
+.presentacion-img{
    margin-right: 2rem;
 }
 
-.presentacion-img img{
-    width: 40vh;
+.pesentacion-img img{
+    width: 100%;
 }
 
 .presentacion-text p{

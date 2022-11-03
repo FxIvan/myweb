@@ -1,0 +1,22 @@
+@media only screen and (min-width: 701px) {
+    .container-stack{
+        width: 90%;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .box-container-1, .box-container-2 , .box-container-3{
+        display: flex;
+        text-align: center;
+    }
+
+    .icon-stack-1 , .icon-stack-2 , .icon-stack-3, .icon-stack-4, .icon-stack-5{
+        margin-right: 2rem;
+        width: 7%;
+    }
+    .container-stack-icons{
+        display: flex;
+    }
+}
+@media only screen and (max-width: 701px) {
+    
+}

@@ -7,7 +7,7 @@ export const Section1 = () =>{
     return(
         <div>
             <div className='container-presentacion'>
-                <div className='presentacion-img'>
+                <div className='pesentacion-img'>
                     <img src={cohete}/>
                 </div>
                 <div className='presentacion-text'>
