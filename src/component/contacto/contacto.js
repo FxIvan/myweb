@@ -11,6 +11,9 @@ export const Contacto = () => {
         frm_consulta:''
     })
 
+    const [ statusRes , setStatusRes ] = useState('')
+    const  [ refreshPage , setRefreshPage] = useState(false)
+
     const handleChange = (e) =>{
         setFormConsulta({
             ...formConsulta,
@@ -20,9 +23,23 @@ export const Contacto = () => {
 
     
     const handleSubmit = (e) =>{
-        //e.preventDefault()
+        e.preventDefault()
         /*http://devalmendra.online/contacto/data */
-        axios.post('https://devalmendra.online/contacto/data' , formConsulta)
+         axios.post('https://devalmendra.online/contacto/data' , formConsulta)
+         .then(output=>{
+            console.log(output)
+            setStatusRes(output.data.message)
+            if(output.data.estado === 'ok'){
+                setRefreshPage(true)
+            }
+         })   
+         
+    }
+
+    if(refreshPage){
+        setTimeout(()=>{
+            window.location.reload()
+        },3000)
     }
 
     return (
@@ -69,6 +86,11 @@ export const Contacto = () => {
                                     <input type='submit' value='Enviar' id='button-contacto'/>
                                 </div>
                             </form>
+                            <div>
+                                <div>
+                                    <span>{statusRes}</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
