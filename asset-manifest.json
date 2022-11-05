@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/myweb/static/css/main.8d4175ee.css",
-    "main.js": "/myweb/static/js/main.b7d6ede7.js",
+    "main.css": "/myweb/static/css/main.d8e3b3e3.css",
+    "main.js": "/myweb/static/js/main.097e9ea4.js",
     "static/js/787.6da80af7.chunk.js": "/myweb/static/js/787.6da80af7.chunk.js",
+    "static/media/platzi.svg": "/myweb/static/media/platzi.ec9624e828a77d189972b36a6ecdce5a.svg",
+    "static/media/digitalHouse.svg": "/myweb/static/media/digitalHouse.af7047d369dce110f354a15be93c1446.svg",
+    "static/media/logoCoderHouse.svg": "/myweb/static/media/logoCoderHouse.854ffb677bf943b9741f15f6dd8a351a.svg",
+    "static/media/openenglish.svg": "/myweb/static/media/openenglish.8e9f30bd4858effee6b86a2642f68ac4.svg",
     "static/media/coheteSection.svg": "/myweb/static/media/coheteSection.2c59276213651fb632a1d2863554e2b7.svg",
     "index.html": "/myweb/index.html",
-    "main.8d4175ee.css.map": "/myweb/static/css/main.8d4175ee.css.map",
-    "main.b7d6ede7.js.map": "/myweb/static/js/main.b7d6ede7.js.map",
+    "main.d8e3b3e3.css.map": "/myweb/static/css/main.d8e3b3e3.css.map",
+    "main.097e9ea4.js.map": "/myweb/static/js/main.097e9ea4.js.map",
     "787.6da80af7.chunk.js.map": "/myweb/static/js/787.6da80af7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d4175ee.css",
-    "static/js/main.b7d6ede7.js"
+    "static/css/main.d8e3b3e3.css",
+    "static/js/main.097e9ea4.js"
   ]
 }
