@@ -31,7 +31,7 @@ export const Stack = () => {
                 <div>
                     <div className='container-stack-icons'>
                         <div className='container-icons-frontend'>
-                            <div>
+                            <div className='subcontainer-icons-mb'>
                                 <div className='box-container-1'>
                                     <div className='icon-stack-1'>
                                         <GrReactjs size={40}/>

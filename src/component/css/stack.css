@@ -28,5 +28,28 @@
     }
 }
 @media only screen and (max-width: 701px) {
-    
+
+    .subcontainer-icons-mb{
+        display: inline-block;
+        width: 100%;
+       
+    }
+    .container-icons-frontend .box-container-1 , .container-icons-frontend .box-container-2 , .container-icons-frontend .box-container-3{
+        display: flex;
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon-stack-1 , .icon-stack-2 , .icon-stack-3, .icon-stack-4, .icon-stack-5 , .icon-stack-6{
+        margin-right: 2rem;
+        width: 100%;
+    }
+
+    .icon-stack-1 p, .icon-stack-2 p, .icon-stack-3 p, .icon-stack-4 p, .icon-stack-5 p, .icon-stack-6 p{
+        font-size: 10px;
+    }
+
+    .title-container-stack{
+        text-align: center;
+    }
 }

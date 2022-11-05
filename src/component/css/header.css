@@ -99,19 +99,19 @@ header{
         margin-top: 1rem;
     }
     
-    .pesentacion-img{
-        width: 30%;
-        margin: auto;
-    }
-    .pesentacion-img img{
-        width: 100%;
+    
+    .presentacion-img img{
+        width: 40%;
+
     }
     
     .presentacion-text{
-        width: 100%;
+        width: 80%;
+        margin: auto;
     }
     .presentacion-text p{
-      font-size: 12px;
+      font-size: 14px;
       width: 100%;
+      font-weight: bold;
     }
 }
