@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import '../css/contacto.css'
 
 
 export const Contacto = () => {
@@ -44,19 +45,20 @@ export const Contacto = () => {
 
     return (
         <div>
-            <div>
+            <div className='container-contacto'>
                 <div>
                     <h2>Contacto</h2>
                 </div>
-                <div>
-                    <div>
+                <div className='container-tel-form'>
+                    <div className='contacto-tel-email'>
                         <ul>
                             <li>Whatsapp: 1136887781</li>
                             <li>Correo: devealmendra@gmail.com</li>
+                            <li>LinkedIn: <a href='https://www.linkedin.com/in/devalmendra/' target='_blank'>/in/devalmendra/</a></li>
                         </ul>
                     </div>
-                    <div>
-                        <div>
+                    <div className='contacto-formulario'>
+                        <div className='contacto-form'>
                             <form onSubmit={handleSubmit}>
                                 <label>Nombre</label>
                                 <input

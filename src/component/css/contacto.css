@@ -1,0 +1,64 @@
+@media only screen and (min-width: 701px) {
+
+    .container-contacto{
+        width: 90%;
+        margin: auto;
+    }
+
+    .container-tel-form{
+        display: flex;
+    }
+
+    .contacto-tel-email{
+        width: 50%;
+    }   
+
+    .contacto-tel-email ul{
+        list-style: none;
+    }
+
+    .contacto-tel-email ul li{
+        margin-top: 1rem;
+        display: flex;
+    }
+
+    .contacto-tel-email ul li a{
+        color: black;
+        display: flex;
+    }
+
+    .contacto-formulario{
+        width: 50%;
+    }
+
+    .contacto-form form{
+        display: grid;
+    }
+
+    .contacto-form form label{
+        margin-top: 0.5rem;
+    }
+
+    .contacto-form form input, .contacto-form form  textarea{
+        border: 2px solid black;
+        border-radius: 4px;
+        padding: 0.3rem;
+    }
+
+    .container-button-contacto, .container-button-contacto input{
+        margin-top: 0.5rem;
+        text-align: center;
+        padding: 0.3rem;
+        color: white;
+    }
+    .container-button-contacto input{
+        background-color: black;
+    }
+
+    .container-button-contacto input:hover{
+        background-color: rgb(92, 89, 89);
+    }
+}
+@media only screen and (max-width: 701px) {
+    
+}
