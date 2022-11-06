@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/myweb/static/css/main.20c64fdd.css",
+    "main.css": "/myweb/static/css/main.b9df8ebf.css",
     "main.js": "/myweb/static/js/main.8f08c0ad.js",
     "static/js/787.6da80af7.chunk.js": "/myweb/static/js/787.6da80af7.chunk.js",
     "static/media/platzi.svg": "/myweb/static/media/platzi.ec9624e828a77d189972b36a6ecdce5a.svg",
@@ -9,12 +9,12 @@
     "static/media/openenglish.svg": "/myweb/static/media/openenglish.8e9f30bd4858effee6b86a2642f68ac4.svg",
     "static/media/coheteSection.svg": "/myweb/static/media/coheteSection.2c59276213651fb632a1d2863554e2b7.svg",
     "index.html": "/myweb/index.html",
-    "main.20c64fdd.css.map": "/myweb/static/css/main.20c64fdd.css.map",
+    "main.b9df8ebf.css.map": "/myweb/static/css/main.b9df8ebf.css.map",
     "main.8f08c0ad.js.map": "/myweb/static/js/main.8f08c0ad.js.map",
     "787.6da80af7.chunk.js.map": "/myweb/static/js/787.6da80af7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20c64fdd.css",
+    "static/css/main.b9df8ebf.css",
     "static/js/main.8f08c0ad.js"
   ]
 }
