@@ -60,5 +60,43 @@
     }
 }
 @media only screen and (max-width: 701px) {
-    
+
+    .container-contacto h2{
+        text-align: center;
+    }
+
+    .contacto-tel-email ul{
+        list-style: none;
+    }
+
+    .contacto-tel-email ul li{
+        margin-top: 0.5rem;
+    }
+
+    .contacto-form form{
+        display: grid;
+        width: 70%;
+        margin: auto;
+    }
+
+    .container-button-contacto, .container-button-contacto input{
+        margin-top: 0.5rem;
+        text-align: center;
+        padding: 0.3rem;
+        color: white;
+    }
+
+    .container-button-contacto input{
+        background-color: black;
+    }
+
+    .contacto-form form input, .contacto-form form  textarea{
+        border: 2px solid black;
+        border-radius: 4px;
+        padding: 0.3rem;
+    }
+
+    .contacto-form form label{
+        margin-top: 0.5rem;
+    }
 }
